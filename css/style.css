@@ -1,0 +1,40 @@
+body{
+    min-width: 100px; /*Минимальная ширина для body*/
+}
+header{
+    text-align:right ;
+}
+.top-menu{
+    background-color: maroon;
+    box-shadow: 0 0 20px grey;
+    height: 40px;
+    padding-right: 100px;
+}
+.line{
+    display:inline-block;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin: 10px;
+}
+.line:last-child{
+    border-right: 0;
+}
+.link{
+    text-decoration: none;/*убираем подчеркивание текста ссылок*/
+    color: white;
+}
+a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+.img-logo{
+     padding: 40px;
+}
+h1{
+    color: maroon;
+}
+.h1-text{
+    border: 1px solid grey;
+    width: 500px;
+    height: 200px;
+    background-color: lightgrey;
+}
