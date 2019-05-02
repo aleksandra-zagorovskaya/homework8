@@ -1,40 +1,82 @@
-body{
-    min-width: 100px; /*Минимальная ширина для body*/
+body {
+    min-width: 900px; /*Минимальная ширина для body*/
 }
-header{
-    text-align:right ;
+header {
+    text-align:right;
 }
-.top-menu{
+main {
+    width: 80%;
+}
+.top-menu {
     background-color: maroon;
     box-shadow: 0 0 20px grey;
     height: 40px;
     padding-right: 100px;
 }
-.line{
-    display:inline-block;
-    border-right: 1px solid white;
-    padding-right: 10px;
-    margin: 10px;
+.top-menu ul li {
+    display: inline;
 }
-.line:last-child{
-    border-right: 0;
-}
-.link{
-    text-decoration: none;/*убираем подчеркивание текста ссылок*/
+.top-menu li a {
+    text-decoration: none;
     color: white;
+    border-right: 1px solid white;
+    padding: 10px;
 }
-a:hover {
-    text-decoration: underline; /* Добавляем подчеркивание */
+.top-menu ul:last-child {
+    border-right: none;
 }
-.img-logo{
+.top-menu li a:hover {
+    text-decoration: underline;
+}
+.img-logo {
      padding: 40px;
 }
-h1{
-    color: maroon;
-}
-.h1-text{
+.h1-text {
     border: 1px solid grey;
-    width: 500px;
+    width: 90%;
     height: 200px;
     background-color: lightgrey;
+    margin-left: 30px;
+}
+h2 {
+    color: maroon;
+    border-bottom: 1px solid grey;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.h1-text p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.block1 li {
+    list-style: outside;
+    margin-left: 20px;
+    line-height: 1.2;
+    color: hotpink; /* Цвет маркеров */
+}
+.block1 li span {
+    color: black; /* Цвет текста */
+}
+.flex {
+    display: flex;
+    width: 90%;
+    height: 200px;
+}
+.jeneral-block {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+aside {
+    width: 20%;
+}
+.pet-3 {
+    box-shadow: 0 10px 4px -4px rgba(0,0,0,0.1);
+}
+h3 {
+    color: maroon;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
 }
