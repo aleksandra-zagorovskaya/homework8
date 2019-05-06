@@ -9,7 +9,7 @@ main {
 }
 .top-menu {
     background-color: maroon;
-    box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 14px 0 grey;
     height: 40px;
 }
 .top-menu ul li {
@@ -21,14 +21,15 @@ main {
     border-right: 1px solid white;
     padding: 10px;
 }
-/*.top-menu ul:last-child {
+.top-menu ul:last-child {
     border-right: none;
-}*/
+}
 .top-menu li a:hover {
     text-decoration: underline;
 }
 .img-logo {
-     padding-top: 40px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .h1-text {
     border: 1px solid grey;
@@ -79,6 +80,7 @@ h3 {
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .last-block {
     border: 1px solid grey;
@@ -97,10 +99,7 @@ h3 {
 .block-end {
     border-top: 1px solid silver;
     background-color: whitesmoke;
-    height: 40px;
-    left: 0;
-    bottom: 0;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .block-end a {
     color: firebrick;
