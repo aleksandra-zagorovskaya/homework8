@@ -1,8 +1,11 @@
 body {
     min-width: 600px; /*Минимальная ширина для body*/
+    /*font-family: 'Roboto';*/
 }
 header {
     text-align:right;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 main {
     width: 80%;
@@ -13,7 +16,7 @@ main {
     height: 40px;
 }
 .top-menu ul li {
-    display: inline;
+    display: inline-block;
 }
 .top-menu li a {
     text-decoration: none;
@@ -21,8 +24,8 @@ main {
     border-right: 1px solid white;
     padding: 10px;
 }
-.top-menu ul:last-child {
-    border-right: none;
+/*.top-menu ul:last-child {
+    border-right: none;*/
 }
 .top-menu li a:hover {
     text-decoration: underline;
@@ -65,7 +68,6 @@ h2 {
 .jeneral-block {
     display: flex;
     padding: 0 20px;
-    /*width: 100%;*/
 }
 aside {
     width: 20%;
@@ -103,4 +105,7 @@ h3 {
 }
 .block-end a {
     color: firebrick;
+}
+.turn:hover {
+    transform: rotate(10deg);
 }
